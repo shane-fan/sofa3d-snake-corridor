@@ -1,7 +1,7 @@
 # 3D moving sofa, snake corridor: pose files and checks for new lower bounds
 
 Author: Shane Fan
-Paper: *Larger three-dimensional moving sofas in the snake corridor: matched pre-twist and double-screw motions* — [`paper/sofa3d_snake_corridor.pdf`](paper/sofa3d_snake_corridor.pdf) (25 November 2026)
+Paper: *Larger three-dimensional moving sofas in the snake corridor: matched pre-twist and double-screw motions* — [`paper/sofa3d_snake_corridor.pdf`](paper/sofa3d_snake_corridor.pdf) (25 November 2026). Zenodo: https://zenodo.org/records/24541432, DOI [10.5281/zenodo.24541432](https://doi.org/10.5281/zenodo.24541432).
 
 This folder holds the motions (pose lists) behind new lower bounds for the 3D moving sofa problem in the "snake"
 corridor, as posed in Google DeepMind's AlphaEvolve repository of problems. It also holds the code needed to check them
