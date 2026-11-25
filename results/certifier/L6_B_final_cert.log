@@ -1,0 +1,10 @@
+paths/B.npy
+   finest_cell: 0.0009765625
+   poses: 6580
+   certified_all: 1.8801438938826323
+   certified_connected: 1.8801438938826323
+   seconds: 697.5288581848145
+   retest_scale_1: 16126694 of 16126694 sampled cells pass
+   retest_scale_1.002: 16052318 of 16126694 sampled cells pass
+   retest_scale_1.01: 15618276 of 16126694 sampled cells pass
+   monte_carlo_violations: 0 of 20000 random points (motion sampled at 61271 poses)
