@@ -32,14 +32,14 @@ formulation. It should always be quoted with this caveat.
 
 | | DeepMind's code, grid 0.001 | Certifier, level 6 | Exact re-check (level 6 cubes) |
 |---|---|---|---|
-| Tang's record path (control, not included) | 1.8558404 | 1.870833 | all pass |
-| B | 1.8650145 | 1.880144 | all pass, 1.880143894 |
+| Tang's record path (control, not included) | 1.8558404 | 1.870832 | all pass |
+| B | 1.8650145 | 1.880143 | all pass, 1.880143894 |
 | D | 1.8870264 | 1.904259 | all pass, 1.904259124 |
 | **D2** (Result 1) | **1.8893629** | **1.906472** | all 14,267,073 cubes pass, 1.906472175 |
-| double screw (Result 2, end pose changed) | 1.9011554 | 1.918911 | all pass, 1.918910558 |
+| double screw (Result 2, end pose changed) | 1.9011554 | 1.918910 | all pass, 1.918910558 |
 
-The certifier's level-7 values (finest cube 0.000488) are D2 1.911435 (the same on two machines), D 1.909282 and
-double screw 1.923976. The certifier and
+The certifier's level-7 values (finest cube 0.000488) are D2 1.911434 (the same on two machines), D 1.909281 and
+double screw 1.923975. The certifier and
 the exact re-check measure a different, continuous-motion notion of "fits", so their numbers are not directly
 comparable with DeepMind's. They are an independent check that each motion really carries a body of roughly that
 volume.
@@ -136,9 +136,9 @@ python certifier/certify3d.py 6 paths/D2.npy
 python certifier/final_cert.py 6 paths/D2.npy    # adds the connectivity check and negative controls
 ```
 
-* Expected level-6 values: D2 1.906472, D 1.904259, B 1.880144, double screw 1.918911. The double screw is
+* Expected level-6 values: D2 1.906472, D 1.904259, B 1.880143, double screw 1.918910. The double screw is
   certified for its own end pose, and the certifier does not use DeepMind's appended end pose.
-* Level 7 (`certify3d.py 7 …`) gives D2 1.911435, D 1.909282 and double screw 1.923976.
+* Level 7 (`certify3d.py 7 …`) gives D2 1.911434, D 1.909281 and double screw 1.923975.
 * A quick check at level 4 (under a minute) gives D2 1.876478.
 * Time and memory: level 6 takes minutes on a multi-core CPU. `final_cert.py` at level 6 builds a 4096 × 1024 × 1024
   voxel grid (about 4.3 GB of RAM), and at level 7 that grows 8×. `certify3d.py` alone needs little memory.

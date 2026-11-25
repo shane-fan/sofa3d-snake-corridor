@@ -73,13 +73,13 @@ cell is 1/16. Level 6 means the finest cube has side 1/1024 ≈ 0.00098, and lev
 
 | Path | Level 6 | Level 7 | Backing file(s) |
 |---|---|---|---|
-| Tang w6_night3 (control) | 1.870833 | n/a | `certifier/L6_tang_control_final_cert.log` (1.8708327682688832) |
-| B | 1.880144 | n/a | `certifier/L6_B_certify3d.log` |
-| A (not released) | 1.883059 | n/a | log not included |
+| Tang w6_night3 (control) | 1.870832 | n/a | `certifier/L6_tang_control_final_cert.log` (1.8708327682688832) |
+| B | 1.880143 | n/a | `certifier/L6_B_certify3d.log` |
+| A (not released) | 1.883058 | n/a | log not included |
 | C (not released) | 1.889806 | n/a | log not included |
-| D | 1.904259 | 1.909282 | L6: `certifier/L6_D_final_cert.log`; L7: `certifier/L7_D_and_double_screw_cert7.log` (run on gpu-4's CPU) |
-| **D2** | **1.906472** | **1.911435** (reproduced on two machines, identical cell counts) | L6: `certifier/L6_D2_final_cert.log` (1.9064721753820777); L7: `certifier/L7_D2_cert_machine-a.log`, `certifier/L7_D2_cert_machine-b.log` |
-| double screw (end pose changed) | 1.918911 | 1.923976 | L6: `certifier/L6_double_screw_final_cert.log`; L7: `certifier/L7_D_and_double_screw_cert7.log` |
+| D | 1.904259 | 1.909281 | L6: `certifier/L6_D_final_cert.log`; L7: `certifier/L7_D_and_double_screw_cert7.log` (run on gpu-4's CPU) |
+| **D2** | **1.906472** | **1.911434** (reproduced on two machines, identical cell counts) | L6: `certifier/L6_D2_final_cert.log` (1.9064721753820777); L7: `certifier/L7_D2_cert_machine-a.log`, `certifier/L7_D2_cert_machine-b.log` |
+| double screw (end pose changed) | 1.918910 | 1.923975 | L6: `certifier/L6_double_screw_final_cert.log`; L7: `certifier/L7_D_and_double_screw_cert7.log` |
 
 The `final_cert` logs also report the negative controls, which pass. The connected component equals the full
 certified set. Re-testing the certified shape scaled by 1.002 and 1.01 makes some cells fail, as expected. A Monte
