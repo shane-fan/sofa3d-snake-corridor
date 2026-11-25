@@ -1,0 +1,117 @@
+name, memory.total [MiB]
+NVIDIA GeForce RTX 4090, 24564 MiB
+
+jax 0.12.1 [CudaDevice(id=0)]
+DeepMind scoring code loaded, unmodified (notebook sha256 a5b03434f3848bedcec5d47f87182660830209d811b4d31d3058357d3eabd73e)
+D2: paths/D2.npy  poses 2155  array sha256 9daac154af27ad65bd140d48efccd4e429ea1d9b1afe0b05cd0e1db5fe7d148c  first [-3.0, 0.0, 0.0, 0.0, 0.0, 0.0]  last [0.0, 6.0, 8.0, 90.0, 90.0, 90.0]
+Smoothed path length 2_155 to smoothed_path length 7_880 with translation_tol=0.005 and rotation_tol=0.05
+D2               smoothed   7880  min true rotation step 4.99e-04 deg  steps below 1e-5: 0
+Smoothed path length 2_155 to smoothed_path length 7_880 with translation_tol=0.005 and rotation_tol=0.05
+Total points to generate: 502_253_001, max_batch_size=50_000_000, with grid_fineness=0.002
+Yielding batch 0/11 of size 50_000_000
+Checking path survival for batch 0/11...
+Computing translation survival...
+Finished computing translation survival. Time taken: 64.61932444572449 seconds
+Computing rotation survival...
+Finished computing rotation survival. Time taken: 185.89171242713928 seconds
+Finished checking path survival for batch 0/11. Time taken: 280.1640956401825 seconds. In this batch: 0/50000000 (0.0) points survived.
+
+
+Yielding batch 1/11 of size 50_000_000
+Checking path survival for batch 1/11...
+Computing translation survival...
+Finished computing translation survival. Time taken: 62.73385167121887 seconds
+Computing rotation survival...
+Finished computing rotation survival. Time taken: 185.12452149391174 seconds
+Finished checking path survival for batch 1/11. Time taken: 275.5838806629181 seconds. In this batch: 160221/50000000 (0.00320442) points survived.
+
+
+Yielding batch 2/11 of size 50_000_000
+Checking path survival for batch 2/11...
+Computing translation survival...
+Finished computing translation survival. Time taken: 62.732940435409546 seconds
+Computing rotation survival...
+Finished computing rotation survival. Time taken: 185.12427926063538 seconds
+Finished checking path survival for batch 2/11. Time taken: 275.65687704086304 seconds. In this batch: 25881368/50000000 (0.51762736) points survived.
+
+
+Yielding batch 3/11 of size 50_000_000
+Checking path survival for batch 3/11...
+Computing translation survival...
+Finished computing translation survival. Time taken: 62.734188079833984 seconds
+Computing rotation survival...
+Finished computing rotation survival. Time taken: 185.12392330169678 seconds
+Finished checking path survival for batch 3/11. Time taken: 275.6269602775574 seconds. In this batch: 38582418/50000000 (0.77164836) points survived.
+
+
+Yielding batch 4/11 of size 50_000_000
+Checking path survival for batch 4/11...
+Computing translation survival...
+Finished computing translation survival. Time taken: 62.740769386291504 seconds
+Computing rotation survival...
+Finished computing rotation survival. Time taken: 185.12505173683167 seconds
+Finished checking path survival for batch 4/11. Time taken: 275.7374749183655 seconds. In this batch: 33845126/50000000 (0.67690252) points survived.
+
+
+Yielding batch 5/11 of size 50_000_000
+Checking path survival for batch 5/11...
+Computing translation survival...
+Finished computing translation survival. Time taken: 62.73532199859619 seconds
+Computing rotation survival...
+Finished computing rotation survival. Time taken: 185.12280464172363 seconds
+Finished checking path survival for batch 5/11. Time taken: 275.61802792549133 seconds. In this batch: 18037506/50000000 (0.36075012) points survived.
+
+
+Yielding batch 6/11 of size 50_000_000
+Checking path survival for batch 6/11...
+Computing translation survival...
+Finished computing translation survival. Time taken: 62.741315841674805 seconds
+Computing rotation survival...
+Finished computing rotation survival. Time taken: 185.1236960887909 seconds
+Finished checking path survival for batch 6/11. Time taken: 275.52698802948 seconds. In this batch: 18832705/50000000 (0.3766541) points survived.
+
+
+Yielding batch 7/11 of size 50_000_000
+Checking path survival for batch 7/11...
+Computing translation survival...
+Finished computing translation survival. Time taken: 62.73162579536438 seconds
+Computing rotation survival...
+Finished computing rotation survival. Time taken: 185.12310194969177 seconds
+Finished checking path survival for batch 7/11. Time taken: 275.51338481903076 seconds. In this batch: 36667211/50000000 (0.73334422) points survived.
+
+
+Yielding batch 8/11 of size 50_000_000
+Checking path survival for batch 8/11...
+Computing translation survival...
+Finished computing translation survival. Time taken: 62.732075214385986 seconds
+Computing rotation survival...
+Finished computing rotation survival. Time taken: 185.12334990501404 seconds
+Finished checking path survival for batch 8/11. Time taken: 275.7138662338257 seconds. In this batch: 41867843/50000000 (0.83735686) points survived.
+
+
+Yielding batch 9/11 of size 50_000_000
+Checking path survival for batch 9/11...
+Computing translation survival...
+Finished computing translation survival. Time taken: 62.72854924201965 seconds
+Computing rotation survival...
+Finished computing rotation survival. Time taken: 185.12083220481873 seconds
+Finished checking path survival for batch 9/11. Time taken: 275.5699601173401 seconds. In this batch: 24786601/50000000 (0.49573202) points survived.
+
+
+Yielding batch 10/11 of size 2_253_001
+Checking path survival for batch 10/11...
+Computing translation survival...
+Finished computing translation survival. Time taken: 2.270718812942505 seconds
+Computing rotation survival...
+Finished computing rotation survival. Time taken: 5.394150733947754 seconds
+Finished checking path survival for batch 10/11. Time taken: 8.348575830459595 seconds. In this batch: 0/2253001 (0.0) points survived.
+
+
+In total, 238_660_999/502_253_001 (0.47518083221965657) points survived.
+Volume of the cubes which can be safely included in the sofa: 1.8675882479997943
+
+#### RESULT D2 grid 0.002 volume 1.8675882 survivors 238660999 (2794 s)
+
+==== SUMMARY ====
+D2               grid 0.002  volume 1.8675882  survivors 238660999  2794s
+results written to results_D2_0.002.json

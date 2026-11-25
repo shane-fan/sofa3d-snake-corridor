@@ -127,3 +127,22 @@ paths, so their headers list `tang_w6_night3` and `ours_B` before the path being
 on the command line always had their own last row appended as the end pose. For D and D2 that row is exactly
 DeepMind's (0, 6, 8, 90, 90, 90), so the appended poses are bit-identical to DeepMind's `add_start_and_end_poses`.
 The released script uses DeepMind's function unless `--end-pose-from-file` is passed.
+
+## Connectivity of the cube sets counted by DeepMind's code (grid 0.001)
+
+DeepMind's `compute_sofa_volume` sums every cube that passes its 64-point test and does not test connectivity. For the runs whose point masks were kept, `scoring/mask_components.py` rebuilds the cube set exactly as that function does and labels face-connected components.
+
+| Path | Cubes counted | Components | Volume (cubes × h³) | Log |
+|---|---|---|---|---|
+| D2 | 1,889,362,857 | 1 | 1.8893629 | `dm_scoring/D2_grid0.001_cube_components.log` |
+| D | 1,887,026,391 | 1 | 1.8870264 | `dm_scoring/D_grid0.001_cube_components.log` |
+
+(The same check for path A, whose files are not released, gave 1,867,710,564 cubes in 1 component.) Masks were not kept for the double screw, B and the Tang control.
+
+## Run of the released script itself
+
+`python scoring/score_dm.py paths/D2.npy 0.002` on an RTX 4090 (JAX 0.12.1): volume 1.8675882, 238,660,999 surviving points, identical to the logged run at that grid. Log: `dm_scoring/released_script_D2_grid0.002.log`. The grid-0.001 values above were produced with the earlier driver, which supplied the appended start and end poses itself; for D and D2 those rows are bit-identical to the poses DeepMind's `add_start_and_end_poses` appends.
+
+## Connectivity of the certified cube lists
+
+`certifier/exact/conn_octree.py` (independent of the certifier) finds one face-connected component, no nested cubes and all cubes inside the block for every released level-6 list, and for D2 at level 7 (56,894,292 cubes): `exact/connectivity_of_exported_cube_lists.log`, `certifier/L7_D2_connectivity.log`.
