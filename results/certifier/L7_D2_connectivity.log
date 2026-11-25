@@ -1,0 +1,2 @@
+D2_L7: 56894292 cubes, per level [5409, 9331, 40278, 163046, 667179, 2689183, 10692647, 42627219], volume 16419098507/8589934592 = 1.911434637
+   face-connected components: 1 ; largest = 16419098507/8589934592 = 1.911434637 ; others total 0.000e+00 (largest other 0.000e+00) ; cubes with a certified ancestor: 0 ; all inside block: True ; adjacencies 276095033 ; 107s

@@ -1,0 +1,12 @@
+D2gpu: 14267073 cubes, per level [5409, 9331, 40278, 163046, 667179, 2689183, 10692647], volume 2047058911/1073741824 = 1.906472175
+   face-connected components: 1 ; largest = 2047058911/1073741824 = 1.906472175 ; others total 0.000e+00 (largest other 0.000e+00) ; cubes with a certified ancestor: 0 ; all inside block: True ; adjacencies 69235295 ; 56s
+strictD: 14460212 cubes, per level [5418, 9093, 40673, 164886, 670463, 2704214, 10865465], volume 2044682665/1073741824 = 1.904259124
+   face-connected components: 1 ; largest = 2044682665/1073741824 = 1.904259124 ; others total 0.000e+00 (largest other 0.000e+00) ; cubes with a certified ancestor: 0 ; all inside block: True ; adjacencies 70194113 ; 37s
+screwAgpu: 14396976 cubes, per level [5458, 9366, 40117, 162939, 662324, 2725425, 10791347], volume 2060414523/1073741824 = 1.918910558
+   face-connected components: 1 ; largest = 2060414523/1073741824 = 1.918910558 ; others total 0.000e+00 (largest other 0.000e+00) ; cubes with a certified ancestor: 0 ; all inside block: True ; adjacencies 69318689 ; 38s
+aepolB: 13444527 cubes, per level [5442, 8818, 37574, 154017, 627331, 2533275, 10078070], volume 1009394567/536870912 = 1.880143894
+   face-connected components: 1 ; largest = 1009394567/536870912 = 1.880143894 ; others total 0.000e+00 (largest other 0.000e+00) ; cubes with a certified ancestor: 0 ; all inside block: True ; adjacencies 65433445 ; 69s
+tang: 13448144 cubes, per level [5352, 8939, 40216, 141525, 733218, 2321881, 10197013], volume 2008791389/1073741824 = 1.870832768
+   face-connected components: 1 ; largest = 2008791389/1073741824 = 1.870832768 ; others total 0.000e+00 (largest other 0.000e+00) ; cubes with a certified ancestor: 0 ; all inside block: True ; adjacencies 66100562 ; 56s
+screwA: 14397817 cubes, per level [5458, 9370, 40114, 163121, 660849, 2721164, 10797741], volume 2060504397/1073741824 = 1.918994260
+   face-connected components: 1 ; largest = 2060504397/1073741824 = 1.918994260 ; others total 0.000e+00 (largest other 0.000e+00) ; cubes with a certified ancestor: 0 ; all inside block: True ; adjacencies 69322365 ; 68s
