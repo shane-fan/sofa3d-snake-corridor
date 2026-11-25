@@ -1,0 +1,10 @@
+runs3d/strictD/d_pol2_gpu.npy
+   finest_cell: 0.0009765625
+   poses: 7214
+   certified_all: 1.904259123839438
+   certified_connected: 1.904259123839438
+   seconds: 282.98241209983826
+   retest_scale_1: 16332947 of 16332947 sampled cells pass
+   retest_scale_1.002: 16250300 of 16332947 sampled cells pass
+   retest_scale_1.01: 15807760 of 16332947 sampled cells pass
+   monte_carlo_violations: 0 of 20000 random points (motion sampled at 66638 poses)

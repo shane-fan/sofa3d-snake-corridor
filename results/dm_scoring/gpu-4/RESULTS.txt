@@ -1,0 +1,3 @@
+#### RESULT tang_w6_night3 grid 0.02 volume 1.4722400 survivors 232192 (4 s)
+#### RESULT tang_w6_night3 grid 0.001 volume 1.8558404 survivors 1876351816 (20774 s)
+QUEUE DONE

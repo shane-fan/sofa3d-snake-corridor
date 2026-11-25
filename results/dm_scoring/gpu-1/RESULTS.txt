@@ -1,0 +1,4 @@
+#### RESULT tang_w6_night3 grid 0.002 volume 1.8355162 survivors 234544396 (2592 s)
+#### RESULT ours_B grid 0.002 volume 1.8444762 survivors 235456095 (2767 s)
+TRIO DONE
+#### RESULT ours_D2 grid 0.001 volume 1.8893629 survivors 1910309317 (split driver, 81 batches)

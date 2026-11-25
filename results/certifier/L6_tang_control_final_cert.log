@@ -1,0 +1,10 @@
+external/tang/w6_night3_path.json
+   finest_cell: 0.0009765625
+   poses: 6289
+   certified_all: 1.8708327682688832
+   certified_connected: 1.8708327682688832
+   seconds: 255.90998601913452
+   retest_scale_1: 16066989 of 16066989 sampled cells pass
+   retest_scale_1.002: 15979150 of 16066989 sampled cells pass
+   retest_scale_1.01: 15547879 of 16066989 sampled cells pass
+   monte_carlo_violations: 0 of 20000 random points (motion sampled at 60761 poses)

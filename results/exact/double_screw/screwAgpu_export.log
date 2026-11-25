@@ -1,0 +1,7 @@
+  chunk 0 done, 44s
+  chunk 16 done, 116s
+  chunk 32 done, 166s
+  chunk 48 done, 237s
+screwAgpu poses 7305  cells per level [np.int64(5458), np.int64(9366), np.int64(40117), np.int64(162939), np.int64(662324), np.int64(2725425), np.int64(10791347)]  exact volume 2060414523/1073741824 = 1.918910558  (237s)
+  disjointness: 0 certified cubes have a certified ancestor
+  saved: coarse 54941, sample 20000, tight 2000 (slack 1.780e-12 .. 7.255e-10), surface 3000; in_block True; 248s

@@ -1,0 +1,7 @@
+# CPU packages: path checks, the independent certifier, the exact re-check.
+# Versions are those of the environment the certifier and exact re-check were run in (Python 3.9.6).
+numpy==2.0.2
+scipy==1.13.1
+numba==0.60.0
+llvmlite==0.43.0
+mpmath==1.4.1

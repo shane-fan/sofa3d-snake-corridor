@@ -1,0 +1,16 @@
+{
+ "jax": "0.12.1",
+ "device": "cuda:0",
+ "runs": [
+  {
+   "path": "tang_w6_night3",
+   "grid": 0.002,
+   "translation_tol": 0.005,
+   "rotation_tol_deg": 0.05,
+   "volume": 1.8355161839997978,
+   "survivors": 234544396,
+   "seconds": 2592.1988501548767
+  }
+ ],
+ "tag": "tang_w6_night3_0.002"
+}

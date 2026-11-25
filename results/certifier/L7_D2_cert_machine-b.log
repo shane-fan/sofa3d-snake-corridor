@@ -1,0 +1,1 @@
+runs3d/dsearch/D2_gpu.npy  finest cell 0.000488  poses 7041  CERTIFIED VOLUME 1.911435  cells per level [np.int64(5409), np.int64(9331), np.int64(40278), np.int64(163046), np.int64(667179), np.int64(2689183), np.int64(10692647), np.int64(42627219)]  411s

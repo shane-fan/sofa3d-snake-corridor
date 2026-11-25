@@ -1,0 +1,7 @@
+  chunk 0 done, 52s
+  chunk 16 done, 124s
+  chunk 32 done, 181s
+  chunk 48 done, 253s
+strictD poses 7214  cells per level [np.int64(5418), np.int64(9093), np.int64(40673), np.int64(164886), np.int64(670463), np.int64(2704214), np.int64(10865465)]  exact volume 2044682665/1073741824 = 1.904259124  (254s)
+  disjointness: 0 certified cubes have a certified ancestor
+  saved: coarse 55184, sample 20000, tight 2000 (slack 9.948e-14 .. 5.878e-10), surface 3000; in_block True; 264s

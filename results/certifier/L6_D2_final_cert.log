@@ -1,0 +1,10 @@
+runs3d/dsearch/D2_gpu.npy
+   finest_cell: 0.0009765625
+   poses: 7041
+   certified_all: 1.9064721753820777
+   certified_connected: 1.9064721753820777
+   seconds: 153.59261631965637
+   retest_scale_1: 16353386 of 16353386 sampled cells pass
+   retest_scale_1.002: 16271875 of 16353386 sampled cells pass
+   retest_scale_1.01: 15832319 of 16353386 sampled cells pass
+   monte_carlo_violations: 0 of 20000 random points (motion sampled at 65652 poses)

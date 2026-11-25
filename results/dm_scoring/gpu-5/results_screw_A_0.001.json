@@ -1,0 +1,16 @@
+{
+ "jax": "0.12.1",
+ "device": "cuda:0",
+ "runs": [
+  {
+   "path": "screw_A",
+   "grid": 0.001,
+   "translation_tol": 0.005,
+   "rotation_tol_deg": 0.05,
+   "volume": 1.9011553519997906,
+   "survivors": 1922601669,
+   "seconds": 24592.087141275406
+  }
+ ],
+ "tag": "screw_A_0.001"
+}

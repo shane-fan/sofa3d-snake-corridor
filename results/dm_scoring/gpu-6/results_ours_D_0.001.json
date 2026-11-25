@@ -1,0 +1,16 @@
+{
+ "jax": "0.12.1",
+ "device": "cuda:0",
+ "runs": [
+  {
+   "path": "ours_D",
+   "grid": 0.001,
+   "translation_tol": 0.005,
+   "rotation_tol_deg": 0.05,
+   "volume": 1.8870263909997922,
+   "survivors": 1908096390,
+   "seconds": 22130.561895608902
+  }
+ ],
+ "tag": "ours_D_0.001"
+}

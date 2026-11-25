@@ -1,0 +1,7 @@
+  chunk 0 done, 39s
+  chunk 16 done, 194s
+  chunk 32 done, 439s
+  chunk 48 done, 705s
+aepolB poses 6580  cells per level [np.int64(5442), np.int64(8818), np.int64(37574), np.int64(154017), np.int64(627331), np.int64(2533275), np.int64(10078070)]  exact volume 1009394567/536870912 = 1.880143894  (705s)
+  disjointness: 0 certified cubes have a certified ancestor
+  saved: coarse 51834, sample 20000, tight 2000 (slack 6.537e-13 .. 7.182e-10), surface 3000; in_block True; 724s

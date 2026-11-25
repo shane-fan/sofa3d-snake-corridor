@@ -1,0 +1,5 @@
+#### RESULT tang_w6_night3 grid 0.02 volume 1.4722400 survivors 232192 (3 s)
+#### RESULT ours_D2 grid 0.02 volume 1.4920720 survivors 235332 (3 s)
+#### RESULT ours_D2 grid 0.002 volume 1.8675882 survivors 238660999 (2717 s)
+#### RESULT ours_D2 grid 0.001 volume 1.8893629 survivors 1910309317 (21712 s)
+QUEUE DONE

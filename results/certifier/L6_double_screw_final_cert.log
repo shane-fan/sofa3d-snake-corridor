@@ -1,0 +1,10 @@
+runs3d/screw_gpu/cand_A_gpu.npy
+   finest_cell: 0.0009765625
+   poses: 7305
+   certified_all: 1.918910558335483
+   certified_connected: 1.918910558335483
+   seconds: 433.0423421859741
+   retest_scale_1: 16455812 of 16455812 sampled cells pass
+   retest_scale_1.002: 16378868 of 16455812 sampled cells pass
+   retest_scale_1.01: 15936041 of 16455812 sampled cells pass
+   monte_carlo_violations: 0 of 20000 random points (motion sampled at 64849 poses)

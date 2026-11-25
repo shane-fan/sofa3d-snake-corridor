@@ -1,0 +1,6 @@
+# Extra packages for scoring/ (DeepMind's notebook code). Install on a machine with an NVIDIA GPU.
+# The reported scores used JAX 0.12.1 on an RTX 4090. The notebook's Imports cell also imports matplotlib and IPython,
+# so they must be installed, but they play no part in the scoring. Their versions on the GPU machines were not recorded.
+jax[cuda12]==0.12.1
+matplotlib
+ipython

@@ -1,0 +1,2 @@
+#### RESULT ours_D2 grid 0.004 volume 1.8235974 survivors 29787239 (354 s)
+#### RESULT ours_D2 grid 0.004 volume 1.8235974 survivors 29787239 (split driver, 2 batches)

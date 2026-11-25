@@ -1,0 +1,1 @@
+runs3d/ae_polish_b_gpu_path.npy  finest cell 0.000977  poses 6580  CERTIFIED VOLUME 1.880144  cells per level [np.int64(5442), np.int64(8818), np.int64(37574), np.int64(154017), np.int64(627331), np.int64(2533275), np.int64(10078070)]  547s

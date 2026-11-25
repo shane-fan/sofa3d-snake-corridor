@@ -1,0 +1,11 @@
+  prepared 7305 fine poses in 3s: delta <= 2.183e-11, theta_max <= 8.720919e-04 rad (0.04997 deg), max segment angle 0.0066 rad
+screwAgpu: 7305 fine poses, delta 2.183e-11, theta_max 8.7209e-04, float sanity 1.2e-16
+  coarse   54941 / 54941 pass; per level {0: [5458, 5458], 1: [9366, 9366], 2: [40117, 40117]}; min exact margin 1.658e-07
+  sample   20000 / 20000 pass; per level {3: [5000, 5000], 4: [5000, 5000], 5: [5000, 5000], 6: [5000, 5000]}; min exact margin 1.873e-08
+  tight    2000 / 2000 pass; per level {1: [1, 1], 2: [4, 4], 3: [18, 18], 4: [108, 108], 5: [424, 424], 6: [1445, 1445]}; min exact margin 1.414e-09
+  surface  3000 / 3000 pass; per level {6: [3000, 3000]}; min exact margin 1.918e-07
+  NEG shift 0.003006 outward: 3000 / 3000 rejected
+  NEG scale 1.002: 12476 / 77941 cubes rejected (surface cubes: 2575 / 3000)
+  NEG scale 1.010: 29260 / 77941 cubes rejected (surface cubes: 2640 / 3000)
+  ALL cubes (exact, skip variant): 14396976 / 14396976 pass, verified volume 1.918910558, mean 1635 pose evals/cube, 146s
+  done 152s

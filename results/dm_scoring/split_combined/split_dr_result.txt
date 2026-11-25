@@ -1,0 +1,2 @@
+81
+#### RESULT ours_D grid 0.001 volume 1.8870264 survivors 1908096390 (split driver, 81 batches)

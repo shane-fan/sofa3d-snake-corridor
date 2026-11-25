@@ -1,0 +1,50 @@
+name, memory.total [MiB]
+NVIDIA GeForce RTX 4090, 24564 MiB
+NVIDIA GeForce RTX 4090, 24564 MiB
+
+jax 0.12.1 [CudaDevice(id=0)]
+DeepMind scoring code loaded, unmodified
+tang_w6_night3 (512, 6)
+ours_B (2168, 6)
+Smoothed path length 512 to smoothed_path length 7_303 with translation_tol=0.005 and rotation_tol=0.05
+tang_w6_night3   smoothed   7303  min true rotation step 7.54e-05 deg  steps below 1e-5: 0
+Smoothed path length 2_168 to smoothed_path length 7_803 with translation_tol=0.005 and rotation_tol=0.05
+ours_B           smoothed   7803  min true rotation step 1.47e-04 deg  steps below 1e-5: 0
+path file ours_D2.npy sha256 9daac154af27ad65bd140d48efccd4e429ea1d9b1afe0b05cd0e1db5fe7d148c end pose [ 0.  6.  8. 90. 90. 90.]
+Smoothed path length 2_155 to smoothed_path length 7_880 with translation_tol=0.005 and rotation_tol=0.05
+Computing translation survival...
+Finished computing translation survival. Time taken: 64.3687596321106 seconds
+Computing rotation survival...
+Finished computing rotation survival. Time taken: 185.82268261909485 seconds
+BATCH 42/81 done: 18762064 of 50000000 alive, 280 s
+Computing translation survival...
+Finished computing translation survival. Time taken: 62.73715090751648 seconds
+Computing rotation survival...
+Finished computing rotation survival. Time taken: 185.2606065273285 seconds
+BATCH 43/81 done: 17765733 of 50000000 alive, 277 s
+Computing translation survival...
+Finished computing translation survival. Time taken: 62.7348747253418 seconds
+Computing rotation survival...
+Finished computing rotation survival. Time taken: 185.2618145942688 seconds
+BATCH 44/81 done: 17032042 of 50000000 alive, 277 s
+Computing translation survival...
+Finished computing translation survival. Time taken: 62.73770451545715 seconds
+Computing rotation survival...
+Finished computing rotation survival. Time taken: 185.2614405155182 seconds
+BATCH 45/81 done: 16519736 of 50000000 alive, 277 s
+Computing translation survival...
+Finished computing translation survival. Time taken: 62.7391574382782 seconds
+Computing rotation survival...
+Finished computing rotation survival. Time taken: 185.2604193687439 seconds
+BATCH 46/81 done: 16186437 of 50000000 alive, 277 s
+Computing translation survival...
+Finished computing translation survival. Time taken: 62.7402241230011 seconds
+Computing rotation survival...
+Finished computing rotation survival. Time taken: 185.26120328903198 seconds
+BATCH 47/81 done: 16069260 of 50000000 alive, 277 s
+Computing translation survival...
+Finished computing translation survival. Time taken: 62.737823486328125 seconds
+Computing rotation survival...
+Finished computing rotation survival. Time taken: 185.2603054046631 seconds
+BATCH 48/81 done: 16200515 of 50000000 alive, 277 s
+WORK DONE d2r 42 49

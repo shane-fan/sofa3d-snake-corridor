@@ -1,0 +1,18 @@
+  chunk 0 done, 26s
+  chunk 16 done, 77s
+  chunk 32 done, 123s
+  chunk 48 done, 189s
+D2gpu poses 7041  cells per level [np.int64(5409), np.int64(9331), np.int64(40278), np.int64(163046), np.int64(667179), np.int64(2689183), np.int64(10692647)]  exact volume 2047058911/1073741824 = 1.906472175  (189s)
+  disjointness: 0 certified cubes have a certified ancestor
+  saved: coarse 55018, sample 20000, tight 2000 (slack 1.652e-13 .. 6.487e-10), surface 3000; in_block True; 199s
+  prepared 7041 fine poses in 4s: delta <= 2.183e-11, theta_max <= 8.726595e-04 rad (0.05000 deg), max segment angle 0.0087 rad
+D2gpu: 7041 fine poses, delta 2.183e-11, theta_max 8.7266e-04, float sanity 1.2e-16
+  coarse   55018 / 55018 pass; per level {0: [5409, 5409], 1: [9331, 9331], 2: [40278, 40278]}; min exact margin 8.962e-08
+  sample   20000 / 20000 pass; per level {3: [5000, 5000], 4: [5000, 5000], 5: [5000, 5000], 6: [5000, 5000]}; min exact margin 1.805e-07
+  tight    2000 / 2000 pass; per level {1: [2, 2], 2: [5, 5], 3: [18, 18], 4: [118, 118], 5: [390, 390], 6: [1467, 1467]}; min exact margin 1.010e-09
+  surface  3000 / 3000 pass; per level {6: [3000, 3000]}; min exact margin 2.603e-07
+  NEG shift 0.003006 outward: 3000 / 3000 rejected
+  NEG scale 1.002: 12775 / 78018 cubes rejected (surface cubes: 2564 / 3000)
+  NEG scale 1.010: 29245 / 78018 cubes rejected (surface cubes: 2581 / 3000)
+  ALL cubes (exact, skip variant): 14267073 / 14267073 pass, verified volume 1.906472175, mean 1443 pose evals/cube, 175s
+  done 180s
